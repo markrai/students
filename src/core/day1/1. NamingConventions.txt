@@ -1,0 +1,13 @@
+projects - all lower case
+
+packages - all lower case
+           often in the form of "com.companyname.module"
+           
+class    - CamelCase
+           e.g. "Person," "TextSearch," or "LargeTextFormatter"
+
+variables - first letter lower-case, but camelCase.
+            example: "myNumber," "placeholder," or "firstName"
+
+methods - first letter lower case, but camelCase.
+          example: screenSearch();        
