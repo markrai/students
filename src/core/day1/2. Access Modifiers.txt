@@ -1,0 +1,22 @@
+Access modifiers (or visibility modifiers) are applied to 
+classes, inner-classes, fields (variables), and methods.
+
+CLASSES:
+ 	can only be [default] and public.
+
+INNER CLASSES:
+	can only be public, [default], & private.
+
+FIELDS (variables):
+	can be public, [default], protected, or private.
+
+METHODS:
+ 	can be public, [default], protected, or private.
+
+
+From least restrictive to most restrictive:
+
+	 public 
+	 [default]
+	 protected
+	 private
