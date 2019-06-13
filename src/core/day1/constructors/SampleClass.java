@@ -8,11 +8,12 @@ public class SampleClass {
 	 *
 	 * If we decide that we want our default constructor to do some custom actions,
 	 * then we will explicitly write it out:
-	 *
-	 * In this case, it would look like the following:
+	 * 
 	 **/
 
 	SampleClass() {
+		
+		// This is a default constructor. It exists even if you don't type it out.
 
 	}
 	

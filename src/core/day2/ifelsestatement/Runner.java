@@ -1,10 +1,10 @@
-package core.day2.ifthenstatement;
+package core.day2.ifelsestatement;
 
 public class Runner {
 
 	public static void main(String[] args) {
 
-		IfThenStatement its = new IfThenStatement();
+		IfElseStatement its = new IfElseStatement();
 		its.check();
 
 	}

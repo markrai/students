@@ -1,5 +1,9 @@
 package core.day1.constructors;
 
+// The constructor is the first thing which runs when an object is created of that class.
+// It allows us to define HOW we want an object to be created either by default
+// or when we pass in certain arguments to the constructor.
+
 public class MultipleConstructorExample {
 
 	int num1;

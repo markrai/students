@@ -1,6 +1,6 @@
-package core.day2.ifthenstatement;
+package core.day2.ifelsestatement;
 
-public class IfThenElse {
+public class IfElseStatement {
 
 	int a = 1;
 	int b = 2;
@@ -11,12 +11,8 @@ public class IfThenElse {
 		if (a == 1) {
 
 			System.out.println("Yes, a is equal to 1!");
-
-		} else {
-
-			System.out.println("Nope! Not equal!");
-
+			
 		}
 	}
-
+		
 }

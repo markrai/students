@@ -14,7 +14,7 @@ public class ExampleClass {
 	}
 	
 	
-	public String talk(int numberOfWords) {
+	public String talk(int numberOfWords) {  // the return type for this method is a String
 		String speech = null;
 		System.out.println("I am speaking "+ numberOfWords + " words");		
 		return speech;
@@ -23,7 +23,8 @@ public class ExampleClass {
 	
 	public void eat() {  // This method has a void return type, so it returns nothing. 
 		
-		// eat!
+        int amountOfFood = 0;     // This is a local variable because it's inside a method!
+         // Local variables cannot be accessed outside of the methods containing them.
 	}
 
 }
