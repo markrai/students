@@ -1,0 +1,20 @@
+Java does not allow you to inherit from multiple different classes.
+
+i.e. you cannot do:
+
+class Cat extends from Animal, Mammals;
+
+Java does not support "multiple inheritance."
+ 
+Diamond Inheritance Problem:
+
+    A
+   / \
+  B   C
+  \   /
+    D
+    
+ If B and C inherit from A, and both B and C override a method which they inherited from class A....
+ and then class D extends both class B and C.... which version of the method will class D have?
+
+

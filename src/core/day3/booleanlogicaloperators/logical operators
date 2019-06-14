@@ -1,0 +1,27 @@
+boolean a, b;
+
+Operation	 Meaning	         Note
+a && b	     logical AND		 short-circuiting
+a || b		 logical OR			 short-circuiting
+a & b	 boolean logical AND	 not short-circuiting
+a | b    boolean logical OR      not short-circuiting
+a ^ b      boolean logical       exclusive OR
+!a	        logical NOT
+
+
+Example of Short-Circuiting vs Non-Short-Circuiting:
+
+short-circuiting	(x != 0) && (1/x > 1)	    SAFE
+not short-circuiting	(x != 0) & (1/x > 1)	NOT SAFE
+
+
+A	    B	    A | B	A & B	A ^ B	!A
+False	False	False	False	False	True
+True	False	True	False	True	False
+False	True	True	False	True	True
+True	True	True	True	False	False
+
+There is only one case of short-circuiting for each operator, and they are:
+
+false && ... - it is not necessary to know what the right hand side is, the result must be false
+true || ... - it is not necessary to know what the right hand side is, the result must be true
