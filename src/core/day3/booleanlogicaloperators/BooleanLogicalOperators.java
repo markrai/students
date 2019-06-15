@@ -22,6 +22,12 @@ public class BooleanLogicalOperators {
 			// this else block will never run...
 		}
 
+		if ((a==100) | (b==3)) {
+		
+			// line is run....
+			
+		}
+		
 		if ((a == 100) || (b == 3)) {
 			System.out.println("If the first one is true, don't bother checking second");
 		} else {

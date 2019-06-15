@@ -2,7 +2,7 @@ package core.day2.finalkeyword;
 
 public final class FinalKeyword {    // a final class cannot be sub-classed! (i.e. extended)
 
-	final int myFinalVariable = 5; // this variable will not be a constant.
+	final int myFinalVariable = 5; // this variable will be a constant.
 	
 	public final void aFinalMethod(){ // final methods cannot be overridden in sub-classes.
 				

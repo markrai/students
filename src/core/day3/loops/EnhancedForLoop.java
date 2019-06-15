@@ -5,16 +5,18 @@ import java.util.List;
 
 public class EnhancedForLoop {
 
-	List<User> userList = new ArrayList<>();
+	 List<User> userList = new ArrayList<>();
+
+	List<Integer> integerList = new ArrayList<>();
 
 	void createUsers() {
 
 		User u1 = new User();
 		u1.name = "John";
-		
+
 		User u2 = new User();
 		u2.name = "Basit";
-		
+
 		User u3 = new User();
 		u3.name = "Sara";
 
@@ -31,6 +33,7 @@ public class EnhancedForLoop {
 			if (u.name.equals("Sara")) {
 
 				System.out.println("found her!");
+
 			} else {
 
 				System.out.println("could not find sara!");

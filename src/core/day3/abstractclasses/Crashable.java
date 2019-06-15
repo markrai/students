@@ -2,7 +2,7 @@ package core.day3.abstractclasses;
 
 // cannot be instantiated; should contain at least ONE abstract method
 
-abstract public class Crashable {
+public abstract class Crashable {
 
 	boolean carDrivable = true;
 
@@ -10,7 +10,7 @@ abstract public class Crashable {
 		this.carDrivable = false;
 	}
 
-	public abstract void setCarStrength(int carPower);
+	public abstract void setCarStrength(int carPower); 
 
 	public abstract int getCarStrength();
 
