@@ -1,0 +1,15 @@
+WHAT DOES THE THROW KEYWORD DO?
+	The throw keyword explicitly throws an exception back to the calling method.
+
+WHAT DOES THE THROWS KEYWORD DO?
+	This lets the compiler know that this method might throw a particular exception, and any calling method
+	should deal with this by either throwing the exception further up the call stack, or catching it.
+
+WHAT IS THE STRUCTURE OF A TRY/CATCH BLOCK?
+	The try block is where your "risky" statement should be.
+	The catch block handles exception by declaring it within its parameter, and dealing it with it in the body.
+
+WHAT IS A RuntimeException?
+	RuntimeException is the superclass of those exceptions that can be thrown
+	during the normal operation of the JVM. A method isn't required to declare
+	any subclasses of RuntimeException that might be thrown.

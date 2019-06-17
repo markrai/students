@@ -1,0 +1,7 @@
+These are both methods of the Object class.
+
+equals() - used to verify the equality of two objects.
+		   by default, two objects are equal if they are stored in the same
+		   memory address.
+
+hashCode
