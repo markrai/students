@@ -1,4 +1,4 @@
-package core.day3.loops;
+package core.day3.loops.enhancedforloop;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,11 @@
 package core.day3.collections;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class User {
+
+	List<User> userList = new ArrayList<>();
 
 	private String name;
 	private String accoutNumber;
@@ -16,9 +19,10 @@ public class User {
 		User u2 = new User();
 		u2.name = "Ali";
 		u2.id = 3553;
-		
-List<User> userList = new ArrayList<>();
-		
+
+		userList.add(u1);
+		userList.add(u2);
+
 	}
 
 }

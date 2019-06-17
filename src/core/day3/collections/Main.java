@@ -5,10 +5,11 @@ package core.day3.collections;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		
-		User u1 = new User();
-		u1.
-		
+
+		User u = new User();
+		u.createUsers();
+
+		System.out.println(u.userList); // what is this outputting?
+										// How would you output the actual values?
 	}
 }

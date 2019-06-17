@@ -1,0 +1,21 @@
+Classwork
+
+1. Install Oracle database (Express Edition)
+
+2. Install SQL Developer.
+
+3. Use SQL Developer to create a CAR table on your machine, as yesterday.
+
+4. Same as before, create a PASSENGER table.
+
+5. Insert data into the columns of these tables.
+
+6. Print out your results.
+ 
+7. Create a foreign key on the CAR table which corresponds to the ID column on the PASSENGER table.
+
+8. Create a foreign key on the PASSENGER table, which corresponds to the ID column on the CAR table.
+
+9. Insert 5 people in the PASSENGER table and place them all in one CAR. Then write a SELECT query which retrieves all the passengers in that one car.
+
+10. Send me a private message showing me what that query was.
