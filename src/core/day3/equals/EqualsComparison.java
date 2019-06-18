@@ -6,6 +6,8 @@ public class EqualsComparison {
 
 	private static String s1 = new String("Dell");
 	private static String s2 = new String("Dell");
+	
+	Object o = new Object();
 
 	public boolean checkIfEquals() {
 
@@ -18,6 +20,8 @@ public class EqualsComparison {
 											 //  equals compares "contents" (or however it is defined)
 		return result;
 
+		
+		o.equals(obj)
 	}
 
 }
