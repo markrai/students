@@ -14,6 +14,6 @@ public class WithExceptionHandling {
 			System.out.println("In the catch Block due to Exception: " + e);
 		}
 
-		System.out.println("Program Completed");
+		System.out.println("Program Completed");  // program resumes because exception was caught/dealt with.
 	}
 }

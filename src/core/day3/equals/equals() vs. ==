@@ -3,5 +3,5 @@ equals() method and ==
 
 Quick Answer:
 				==        is for reference/address comparison
-				equals()  is for content comparison.
+				equals()  is for content comparison depending on how it is defined.
 

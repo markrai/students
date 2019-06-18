@@ -6,6 +6,6 @@ public class WithoutExceptionHandling {
 		int d = 0;
 		int n = 20;
 		int fraction = n / d;
-		System.out.println("Program Completed");
+		System.out.println("Program Completed");  // this line never runs!
 	}
 }

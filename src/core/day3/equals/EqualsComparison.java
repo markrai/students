@@ -10,11 +10,12 @@ public class EqualsComparison {
 	public boolean checkIfEquals() {
 
 		result = (s1 == s2) ? true : false;
-		System.out.println(result);                      // false!
+		System.out.println(result);            // false! 
+		                                      // == compares object references, not object properties
 
 		result = (s1.equals(s2)) ? true : false;
-		System.out.println(result);                      // true!
-
+		System.out.println(result);           // true!
+											 //  equals compares "contents" (or however it is defined)
 		return result;
 
 	}

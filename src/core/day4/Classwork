@@ -16,6 +16,10 @@ Classwork
 
 8. Create a foreign key on the PASSENGER table, which corresponds to the ID column on the CAR table.
 
-9. Insert 5 people in the PASSENGER table and place them all in one CAR. Then write a SELECT query which retrieves all the passengers in that one car.
+9. Insert 5 people in the PASSENGER table and place them all in one CAR. 
 
-10. Send me a private message showing me what that query was.
+10. Write a SELECT query which returns all the passengers in that one car, using a WHERE clause.
+
+11. Write a SELECT query which returns all the passengers and the cars they are associated with using an INNER JOIN.
+
+12. Send me a private message with both queries.
