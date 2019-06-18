@@ -6,14 +6,16 @@ public class WithExceptionHandling {
 		int d = 0;
 		int n = 20;
 
-		try {                          // risky statement
-			int fraction = n / d;
+		try {
+			int fraction = n / d; // risky statement
 			System.out.println("This line will not be Executed");
 
-		} catch (ArithmeticException e) {
+		}
+
+		catch (ArithmeticException e) {
 			System.out.println("In the catch Block due to Exception: " + e);
 		}
 
-		System.out.println("Program Completed");  // program resumes because exception was caught/dealt with.
+		System.out.println("Program Completed"); // program resumes because exception was caught/dealt with.
 	}
 }
