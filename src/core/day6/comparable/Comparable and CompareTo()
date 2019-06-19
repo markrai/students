@@ -1,0 +1,20 @@
+Problem:
+
+We need to be able to sort a collection using the Collection.sort() method.
+
+BUT!
+
+sort() only accepts those objects which are Comparable.
+
+What does that mean?
+
+It means that the class of these objects must implement the Comparable interface:
+
+e.g. Comparable<Laptop>
+
+and then it must implement the CompareTo() method.
+
+
+// this > obj  +1
+// this < obj  -1
+// this = obj   0

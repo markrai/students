@@ -1,0 +1,11 @@
+Consider the Laptop class in this package.
+
+When we have to write the logic for the comparison 
+of a class OUTSIDE the class, we use a Comparator object
+in the Runner class.
+
+i.e. when our class is not implementing the Comparable interface.
+
+When might this happen? 
+
+When we are not allowed to change the class's functionality.

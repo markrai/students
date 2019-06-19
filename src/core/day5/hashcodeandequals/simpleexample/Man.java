@@ -4,9 +4,9 @@ public class Man {
 
 	int geneticCode;
 
-	public boolean equals(Man man) {
-		return this.geneticCode == man.geneticCode;
-	} // This will not work in all situations. hashCode() also needs to be overridden.
+//	public boolean equals(Man man) {
+//		return this.geneticCode == man.geneticCode;
+//	} // This will not work in all situations. hashCode() also needs to be overridden.
 
 	public static void main(String[] args) {
 
