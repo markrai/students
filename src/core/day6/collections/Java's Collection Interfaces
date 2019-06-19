@@ -1,0 +1,10 @@
+Java's Collection Interfaces:
+
+Set: Does not allow duplicates.
+List: Duplicates Allowed. Ordered Elements.
+Queue: Typically order elements in FIFO order. (except Priority Queue)
+	Deque: Elements can be inserted & removed at both ends. LIFO & FIFO.
+
+
+Map: KV pairs. Doesn't allow duplicates. Map is technically not part of the collection interface.
+

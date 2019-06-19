@@ -12,11 +12,10 @@ public class Animal {
 
 	public static void main(String[] args) {
 		Animal a = new Animal("Woofie", "Dog");
-		System.out.println(a.toString());
+		System.out.println(a);
 
 	}
 
-	
 	public String toString() {
 
 		return "name is " + name + " and" + " type is " + type;

@@ -1,7 +1,25 @@
-     1. There are two ways in which to start a thread.
+Multithreading
+
+1. What is a process?
+
+   A process is usally an program or a task which is running independently  on  the operating system. It is composed of multiple threads.
+   examples: SkypeApp.exe
+   Each process has a PID (process id)
+
+
+2. What is a Thread?
+
+   A thread is an independent path of execution within a program.
+ 
+
+3. Why is Multithreading useful?
+
+
+
+4. What are two ways to start a thread?
+
 	     a. extend the Thread class
     	 b. implement runnable interface
     	 
-     2. a thread is like a separate OS process which can run
-        concurrently with other threads.
+
     

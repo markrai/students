@@ -1,0 +1,26 @@
+Classwork:
+
+0. If on Windows, install a Unix Shell (e.g. GitBash)
+0. open Terminal app. (or iTerm)
+
+
+1. Familiarize yourself with basic Unix commands.
+
+2. Also familiarize yourself with the VIM editor in Unix/Linux.
+
+3. Create a new file and open it in the VIM editor.
+
+4. Edit this file.
+
+5. Save this file.
+
+6. Download or create a plaintext file.
+
+Example Questions on Interviews:
+
+What does the GREP command do?
+What does the CAT command do?
+What is AWK?
+What is SED?
+What does it mean when you "TOUCH" a file?
+What does the TAIL command do?
