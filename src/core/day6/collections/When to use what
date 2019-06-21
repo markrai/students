@@ -1,4 +1,7 @@
-Data structure is a particular way of organizing data in a computer. The developer must choose the appropriate data structure for better performance. If the developer chooses bad data structure, the system does not perform well. This article explains the each data structure advantages and usage.
+http://careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/
+
+
+Use cases for each type of data structure:
 
 Linked List
 Linked list is a data structure which links each node to the next node. The developer can use linked list in the following use cases.
@@ -129,6 +132,3 @@ Handwriting recognition of mathematical expressions.
 Image registration and segmentation.
 Constructing trees for broadcasting in computer networks.
 We discussed different data structure and uses cases to choose the appropriate data structure. When the candidate attends the technical coding interview or uses the application programming interface in software development, the candidate must choose the correct data structure. If the candidate uses the incorrect data structure, it may work. But the programs may fail with more data or with different use case.
-
-
-http://careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/
