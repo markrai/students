@@ -1,0 +1,48 @@
+WHY SPRING?
+	History: Alternative to EJB for creating Enterprise Java Applications.
+
+	Inversion of Control
+		The approach of outsourcing the creation and management of objects.
+	
+	Dependency injection 
+		promotes loose coupling.
+		Inject objects' dependencies for us.
+		Instead of hard-wiring objects together, we specifying wiring  via configuration or annotation.
+		A dependency can be thought of as a "helper class"
+		
+	Minimize Java boilerplate code
+	
+	Helper classes (50% less JDBC code)
+	
+WHAT DOES THE SPRING CONTAINER CONTAIN?
+	Beans
+	Core
+	Context
+	SpEL (Spring Expression Language)
+
+WHAT IS A JAVA BEAN?                                (Just for reference purposes)
+	It is simply a "standard" for Java objects.
+	All properties must be private.
+	a public no-arg constructor.
+	implements Serializable Interface
+	
+WHAT IS A SPRING BEAN?
+	It is simply a java object created by the Spring Container.
+	It is managed by the Spring IoC Container.
+	They don't always follow the rigorous requirements of a Java bean.
+
+WHAT IS AOP?
+	Aspect oriented programming - i.e. logging, security, messaging, etc.
+	Allows the adding of application wide services to given objects.
+
+			
+CONFIGURATION
+	XML Configuration file (legacy, but most legacy apps still use this)
+	Java Annotations (modern)
+	Java Source Code (modern)
+	
+	
+SPRING DEVELOPMENT PROCESS
+	Configure your Spring Beans (bean definition in XML)
+	Create a Spring Container (declare ApplicationContext and point it to XML file)
+	Retrieve Beans from Spring Container (
