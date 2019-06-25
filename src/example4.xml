@@ -9,12 +9,13 @@
 
 	<!-- define the dependency -->
 	<bean id="myFortuneService"
-		class="spring.example3.HappyFortuneService">
+		class="spring.example4.HappyFortuneService">
 	</bean>
 
-	<!-- set up constructor injection -->
-	<bean id="myCoach" class="spring.example3.TrackCoach">
-		<constructor-arg ref="myFortuneService" />
+	<!-- set up setter injection -->
+	<bean id="myCricketCoach" class="spring.example4.CricketCoach">
+		<property name="fortuneService" ref="myFortuneService" />
+
 
 	</bean>
 

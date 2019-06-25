@@ -8,3 +8,7 @@
 	<bean id="vehicle" class="spring.example1.whyspringsolution.Bike">
 	</bean>
 </beans>
+
+
+
+<!-- IMPORTANT: The XML configuration file is usually named applicationContext.xml -->
