@@ -1,0 +1,10 @@
+Improvements and considerations:
+
+1. Use a mocking framework such as Mockito
+2. Use jUnit tests
+3. Create model (DB schema first)
+4. Use recursion to determine multi-level allocations.
+5. Considering using Spring for this project.
+6. Do use JPA to communicate with database
+7. Use a configuration file to edit salaries, etc instead of hardcoding them.
+ 
