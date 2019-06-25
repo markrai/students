@@ -4,7 +4,7 @@ public class CricketCoach implements Coach {
 
 	private FortuneService fortuneService;
 
-	// create a no-arg construction
+	// create a no-arg constructor
 	public CricketCoach() {
 
 		System.out.println("CricketCoach: inside no-arg constructor");
