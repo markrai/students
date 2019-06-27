@@ -1,0 +1,5 @@
+My "manager" package holds classes in the context of the Java convention
+which assigns functional responsibilities to classes named [ClassName]Manager.
+
+also, a related entertaining discussion against the usage of this convention:
+ https://blog.codinghorror.com/i-shall-call-it-somethingmanager/
