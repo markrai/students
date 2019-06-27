@@ -1,4 +1,4 @@
-package core.day01.gettersandsetters;
+package days.day01.gettersandsetters;
 
 public class Person {
 

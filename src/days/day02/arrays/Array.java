@@ -1,4 +1,4 @@
-package core.day02.arrays;
+package days.day02.arrays;
 
 public class Array {
 

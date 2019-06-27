@@ -1,4 +1,4 @@
-package core;
+package days;
 
 public class Runner {
 

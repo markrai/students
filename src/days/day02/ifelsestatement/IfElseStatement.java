@@ -1,4 +1,4 @@
-package core.day02.ifelsestatement;
+package days.day02.ifelsestatement;
 
 public class IfElseStatement {
 

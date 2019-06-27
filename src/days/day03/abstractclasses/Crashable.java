@@ -1,4 +1,4 @@
-package core.day03.abstractclasses;
+package days.day03.abstractclasses;
 
 // cannot be instantiated; should contain at least ONE abstract method
 

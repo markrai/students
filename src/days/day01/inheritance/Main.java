@@ -1,4 +1,4 @@
-package core.day01.inheritance;
+package days.day01.inheritance;
 
 public class Main {
 

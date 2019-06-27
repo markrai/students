@@ -1,4 +1,4 @@
-package core.day01.stringconcatenation;
+package days.day01.stringconcatenation;
 
 public class FunWithStrings1 {
 

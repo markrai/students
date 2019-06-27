@@ -1,4 +1,4 @@
-package core.day03.collections;
+package days.day03.collections;
 
 import java.util.ArrayList;
 import java.util.List;

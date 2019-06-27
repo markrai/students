@@ -1,4 +1,4 @@
-package core.day06.comparable;
+package days.day06.comparable;
 
 public class Laptop implements Comparable<Laptop> {
 

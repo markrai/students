@@ -1,4 +1,4 @@
-package core.day03.fibonacci;
+package days.day03.fibonacci;
 
 // This program will determine whether a given number is a fibonacci number, or not.
 import java.io.BufferedReader;

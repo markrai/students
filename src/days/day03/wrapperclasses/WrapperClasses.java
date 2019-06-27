@@ -1,4 +1,4 @@
-package core.day03.wrapperclasses;
+package days.day03.wrapperclasses;
 
 import java.util.ArrayList;
 

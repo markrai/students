@@ -1,4 +1,4 @@
-package core.day02.statickeyword;
+package days.day02.statickeyword;
 
 public class StaticKeyword {
 	

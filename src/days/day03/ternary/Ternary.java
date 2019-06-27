@@ -1,4 +1,4 @@
-package core.day03.ternary;
+package days.day03.ternary;
 
 /* Ternary Operator
  * 

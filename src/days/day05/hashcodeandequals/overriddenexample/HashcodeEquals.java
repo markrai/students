@@ -1,4 +1,4 @@
-package core.day05.hashcodeandequals.overriddenexample;
+package days.day05.hashcodeandequals.overriddenexample;
 
 import java.util.HashSet;
 

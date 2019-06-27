@@ -1,4 +1,4 @@
-package core.day05.exceptionhandling.trycatchexample1;
+package days.day05.exceptionhandling.trycatchexample1;
 
 public class WithExceptionHandling {
 

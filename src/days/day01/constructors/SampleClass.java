@@ -1,4 +1,4 @@
-package core.day01.constructors;
+package days.day01.constructors;
 
 public class SampleClass {
 

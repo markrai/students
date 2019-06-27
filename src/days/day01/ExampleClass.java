@@ -1,4 +1,4 @@
-package core.day01; // package declaration
+package days.day01; // package declaration
 
 public class ExampleClass {
 

@@ -1,4 +1,4 @@
-package core.day03.collections;
+package days.day03.collections;
 
 public class ArrayList {
 		

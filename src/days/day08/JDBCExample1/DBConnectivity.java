@@ -1,4 +1,4 @@
-package core.day08.JDBCExample1;
+package days.day08.JDBCExample1;
 
 // STEP 1. Import required packages
 import java.sql.Connection;

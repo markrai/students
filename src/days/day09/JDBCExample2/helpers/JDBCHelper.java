@@ -1,4 +1,4 @@
-package core.day09.JDBCExample2.helpers;
+package days.day09.JDBCExample2.helpers;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package core.day06.collections.map;
+package days.day06.collections.map;
 
 import java.util.HashMap;
 import java.util.List;

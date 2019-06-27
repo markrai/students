@@ -1,4 +1,4 @@
-package core.day01.overriding;
+package days.day01.overriding;
 
 public class Fish extends Animal{
 	

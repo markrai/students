@@ -1,4 +1,4 @@
-package core.day05.exceptionhandling.throwskeyword4;
+package days.day05.exceptionhandling.throwskeyword4;
 
 public class ThrowsKeyword {
 

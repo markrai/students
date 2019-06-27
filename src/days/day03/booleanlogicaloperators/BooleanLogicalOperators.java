@@ -1,4 +1,4 @@
-package core.day03.booleanlogicaloperators;
+package days.day03.booleanlogicaloperators;
 
 public class BooleanLogicalOperators {
 

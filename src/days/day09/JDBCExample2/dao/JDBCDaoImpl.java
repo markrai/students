@@ -1,4 +1,4 @@
-package core.day09.JDBCExample2.dao;
+package days.day09.JDBCExample2.dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import core.day09.JDBCExample2.entity.Person;
-import core.day09.JDBCExample2.helpers.JDBCHelper;
+import days.day09.JDBCExample2.entity.Person;
+import days.day09.JDBCExample2.helpers.JDBCHelper;
 
 /**
  * Before running, execute the SQL script in Script package to create schema!

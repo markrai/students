@@ -1,4 +1,4 @@
-package core.day01.datatypes;
+package days.day01.datatypes;
 
 public class DataTypes {
 

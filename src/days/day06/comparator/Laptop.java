@@ -1,4 +1,4 @@
-package core.day06.comparator;
+package days.day06.comparator;
 
 public class Laptop {
 

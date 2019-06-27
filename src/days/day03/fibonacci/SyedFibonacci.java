@@ -1,4 +1,4 @@
-package core.day03.fibonacci;
+package days.day03.fibonacci;
 
 public class SyedFibonacci {
 

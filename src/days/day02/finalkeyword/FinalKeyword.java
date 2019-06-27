@@ -1,4 +1,4 @@
-package core.day02.finalkeyword;
+package days.day02.finalkeyword;
 
 public final class FinalKeyword {    // a final class cannot be sub-classed! (i.e. extended)
 

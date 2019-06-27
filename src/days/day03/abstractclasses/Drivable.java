@@ -1,4 +1,4 @@
-package core.day03.abstractclasses;
+package days.day03.abstractclasses;
 
 /** most interfaces are adjectives. Because, most objects are "nouns" and if you want to
 /*  modify a noun, then you do so using an adjective!

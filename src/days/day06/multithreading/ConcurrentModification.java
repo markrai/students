@@ -1,4 +1,4 @@
-package core.day06.multithreading;
+package days.day06.multithreading;
 
 import java.util.HashMap;
 import java.util.Iterator;

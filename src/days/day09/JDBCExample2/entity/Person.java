@@ -1,4 +1,4 @@
-package core.day09.JDBCExample2.entity;
+package days.day09.JDBCExample2.entity;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package core.day03.interfaces;
+package days.day03.interfaces;
 
 public class Main {
 

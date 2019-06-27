@@ -1,4 +1,4 @@
-package core.day05.exceptionhandling.customexception3;
+package days.day05.exceptionhandling.customexception3;
 
 public class MyClass2 {
 

@@ -1,6 +1,6 @@
-package core.day03.abstractclasses;
+package days.day03.abstractclasses;
 
-import core.day03.interfaces.Drivable;
+import days.day03.interfaces.Drivable;
 
 public class Vehicle extends Crashable implements Drivable {
 

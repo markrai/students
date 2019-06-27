@@ -1,4 +1,4 @@
-package core.day03.equals;
+package days.day03.equals;
 
 public class Main {
 

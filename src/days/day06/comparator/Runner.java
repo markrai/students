@@ -1,4 +1,4 @@
-package core.day06.comparator;
+package days.day06.comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

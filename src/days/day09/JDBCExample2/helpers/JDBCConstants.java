@@ -1,4 +1,4 @@
-package core.day09.JDBCExample2.helpers;
+package days.day09.JDBCExample2.helpers;
 
 /**
  * Change the driver,url,username and password according to your needs

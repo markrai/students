@@ -1,4 +1,4 @@
-package core.day03.collections;
+package days.day03.collections;
 
 // just a class used to hold my main method... 
 

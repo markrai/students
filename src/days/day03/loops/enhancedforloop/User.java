@@ -1,4 +1,4 @@
-package core.day03.loops.enhancedforloop;
+package days.day03.loops.enhancedforloop;
 
 public class User {
 	

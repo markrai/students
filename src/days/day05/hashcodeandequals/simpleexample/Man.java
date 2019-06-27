@@ -1,4 +1,4 @@
-package core.day05.hashcodeandequals.simpleexample;
+package days.day05.hashcodeandequals.simpleexample;
 
 public class Man {
 

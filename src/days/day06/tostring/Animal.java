@@ -1,4 +1,4 @@
-package core.day06.tostring;
+package days.day06.tostring;
 
 public class Animal {
 
