@@ -1,4 +1,4 @@
-package com.markrai.departments.configuration;
+package departments.configuration;
 
 //  This class is my custom exception which could be used to handle validation exceptions
 //  which are then displayed on a future UI

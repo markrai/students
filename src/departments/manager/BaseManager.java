@@ -1,4 +1,4 @@
-package com.markrai.departments.manager;
+package departments.manager;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

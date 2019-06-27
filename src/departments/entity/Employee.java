@@ -1,4 +1,4 @@
-package com.markrai.departments.entity;
+package departments.entity;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

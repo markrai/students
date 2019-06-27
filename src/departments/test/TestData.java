@@ -1,16 +1,16 @@
-package com.markrai.departments.test;
+package departments.test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.markrai.departments.configuration.Config;
-import com.markrai.departments.entity.Department;
-import com.markrai.departments.entity.Employee;
-import com.markrai.departments.manager.EmployeeManager;
+import departments.configuration.Config;
+import departments.entity.Department;
+import departments.entity.Employee;
+import departments.manager.EmployeeManager;
 
 public class TestData {
 
-	static List<com.markrai.departments.entity.Employee> employeeList = new ArrayList<Employee>();
+	static List<departments.entity.Employee> employeeList = new ArrayList<Employee>();
 	static List<Employee> listOfSubordinates = new ArrayList<Employee>();
 
 	public static List<Employee> createTestData() throws Exception {

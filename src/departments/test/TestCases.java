@@ -1,8 +1,8 @@
-package com.markrai.departments.test;
+package departments.test;
 
 import org.junit.Test;
 
-import com.markrai.departments.manager.EmployeeManager;
+import departments.manager.EmployeeManager;
 
 public class TestCases {
 

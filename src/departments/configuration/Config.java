@@ -1,4 +1,4 @@
-package com.markrai.departments.configuration;
+package departments.configuration;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.markrai.departments.test;
+package departments.test;
 
 public class TestRunner {
 

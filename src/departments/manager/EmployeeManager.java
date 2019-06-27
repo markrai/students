@@ -1,4 +1,4 @@
-package com.markrai.departments.manager;
+package departments.manager;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -6,10 +6,10 @@ import java.util.List;
 
 import org.junit.Test;
 
-import com.markrai.departments.configuration.Config;
-import com.markrai.departments.entity.Department;
-import com.markrai.departments.entity.Employee;
-import com.markrai.departments.test.TestData;
+import departments.configuration.Config;
+import departments.entity.Department;
+import departments.entity.Employee;
+import departments.test.TestData;
 
 
 
