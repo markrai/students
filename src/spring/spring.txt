@@ -46,3 +46,20 @@ SPRING DEVELOPMENT PROCESS
 	Configure your Spring Beans (bean definition in XML)
 	Create a Spring Container (declare ApplicationContext and point it to XML file)
 	Retrieve Beans from Spring Container (
+
+BEAN SCOPE
+	Default Scope: Singleton
+	Spring Container only creates one instance of the bean, by default
+	It is cached in memory
+	All requests for this bean will return a SHARED reference to the SAME bean.
+	Useful when a stateless bean is needed.
+	bean element attribute: scope="singleton"
+	
+	Prototype
+	Creates a new bean instance for each container request. Useful for stateful data.
+	
+	"request," "session" and "global-session" are used for web-apps.
+	
+SCANNING FOR COMPONENT CLASSES
+	Spring will scan your classes for annotations and automatically register the beans in the Spring Container.
+	

@@ -1,6 +1,6 @@
 package spring.example2;
 
-import spring.example3.FortuneService;
+import spring.example3_constructor_injection.FortuneService;
 
 public class BaseballCoach implements Coach {
 

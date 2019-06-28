@@ -9,17 +9,18 @@
 
 	<!-- define the dependency -->
 	<bean id="myFortuneService"
-		class="spring.example3_constructor_injection.HappyFortuneService">
+		class="spring.example5_inject_literalvalues.HappyFortuneService">
 	</bean>
 
-	<!-- set up constructor injection -->
-	<bean id="myCoach" class="spring.example3_constructor_injection.TrackCoach">
-		<constructor-arg ref="myFortuneService" />
+	<!-- set up setter injection -->
+	<bean id="myCricketCoach" class="spring.example5_inject_literalvalues.CricketCoach">
+		<property name="fortuneService" ref="myFortuneService" />
 
+		<!-- inject literal values -->
+		<property name="emailAddress" value="someone@gmail.com" />
+		<property name="team" value="Washington Redskins" />
 	</bean>
-
 </beans>
-
 
 <!-- IMPORTANT: The XML configuration file is usually named applicationContext.xml -->
 

@@ -9,11 +9,11 @@
 
 	<!-- define the dependency -->
 	<bean id="myFortuneService"
-		class="spring.example4.HappyFortuneService">
+		class="spring.example4_setter_injection.HappyFortuneService">
 	</bean>
 
 	<!-- set up setter injection -->
-	<bean id="myCricketCoach" class="spring.example4.CricketCoach">
+	<bean id="myCricketCoach" class="spring.example4_setter_injection.CricketCoach">
 		<property name="fortuneService" ref="myFortuneService" />
 
 

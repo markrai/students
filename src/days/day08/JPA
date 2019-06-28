@@ -1,2 +1,5 @@
-JDBC (Java Database Connectivity) is a standard for Database Access
-JPA  (Java Persistence API) is a standard for ORM
+JDBC (Java Database Connectivity) is a standard for Database Access. 
+     Allows a Java application to connect to the database.
+
+JPA  (Java Persistence API) is a standard for ORM (Object Relational Mapping)
+     This allows us to "hide" the SQL from the developers so they can focus on Java code.
