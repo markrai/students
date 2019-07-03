@@ -1,11 +1,9 @@
  <beans>
- 
- 	<bean id="myCoach"
+  	<bean id="myCoach"
  		class="com.company.springdemo.TrackCoach"
  	 init-method="doMyStartupStuff"
  	 destroy-method="doMyCleanupStuff">
  	</bean>
- 	
  </beans>
  
  
