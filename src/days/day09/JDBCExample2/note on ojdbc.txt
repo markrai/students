@@ -1,5 +1,4 @@
 Due to Oracle license restriction, there is no public repository which provides ojdbc jar.
 
-You need to install it manually, like so:
-
+In Maven, you need to install it manually, like so:
 mvn install:install-file -Dfile={path/to/your/ojdbc.jar} -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0 -Dpackaging=jar

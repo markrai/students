@@ -1,0 +1,21 @@
+Singleton     	A single bean instance is created per IOC container and this is the default scope
+Prototype	    A new bean instance is created each time the bean is requested from the IOC container
+Request	        A single bean instance is created and available during the lifecycle of the HTTP request. Only valid with a web-aware spring ApplicationContext container
+Session	        A single bean instance is created and available during the lifecycle of the HTTP session. Only valid with a web-aware spring ApplicationContext container
+Global-Session	A single bean instance is created and available during the lifecycle of the global HTTP session (i.e. for portlet environments). Only valid with a web-aware spring ApplicationContext container
+
+There is a subtle point you need to be aware of with "prototype" scoped beans.
+For "prototype" scoped beans, Spring does not call the destroy method.  
+
+	In contrast to the other scopes, Spring does not manage the complete lifecycle
+	of a prototype bean: the container instantiates, configures, and otherwise 
+	assembles a prototype object, and hands it to the client, with no further 
+	record of that prototype instance.
+
+	Thus, although initialization lifecycle callback methods are called on all objects
+	regardless of scope, in the case of prototypes, configured destruction lifecycle 
+	callbacks are not called. The client code must clean up prototype-scoped objects 
+	and release expensive resources that the prototype bean(s) are holding.
+	
+Example (see both XML and annotation style) :	
+https://examples.javacodegeeks.com/enterprise-java/spring/spring-singleton-bean-scope-example/
