@@ -13,6 +13,6 @@ public class Runner {
 				
 		SampleClass sampleClass = new SampleClass(); // instantiation
 		
-		
+		System.out.println("Test");
 	}
 }

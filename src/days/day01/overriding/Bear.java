@@ -7,6 +7,8 @@ public class Bear extends Animal {
 		System.out.println("I'm a bear and I walk on all four legs!");
 	}
 
+
+	
 	public void sampleMethod() {
 
 		Bear b = new Bear();

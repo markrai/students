@@ -3,7 +3,12 @@ package days.day02.arrays;
 public class Array {
 
 	int[] myArray = new int[6];
+	
+	String[] myArrayOfStudnets = new String[10];
+	
 
+	
+	
 	void addToArray() {
 
 		myArray[0] = 15;
@@ -13,8 +18,7 @@ public class Array {
 		myArray[4] = 10;
 		myArray[2] = 10;
 		
-		System.out.println("Numbers to array added");
-		
+		System.out.println("Numbers to array added");		
 
 	}
 

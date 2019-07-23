@@ -8,15 +8,19 @@ public class IfElse {
 
 	void check() {
 
-		if (a == 1) {
+		if (a == 0) { // everything in parenthesis is your condition
 
-			System.out.println("Yes, a is equal to 1!");
+			System.out.println("HO HO HO"); // here if true
 
-		} else {
+		} else if (a == 2) {
 
-			System.out.println("Nope! Not equal!");
+			System.out.println("HA HA HA"); // here if false
 
+		} else if (a == 1) {
+			
+			System.out.println("HE HE HE!");
 		}
+		
 	}
 
 }
