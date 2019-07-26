@@ -5,7 +5,7 @@ public class AmmarFibonacci1 {
 	static long x = 0;
 	static long y = 1;
 	static long z = 1;
-	static long UpTill = 20; // specify how many places should the sequence count up to?
+	static long UpTill = 50; // specify how many places should the sequence count up to?
 
 	public static void main(String[] args) {
 

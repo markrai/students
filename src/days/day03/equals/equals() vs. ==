@@ -2,7 +2,7 @@ equals() and ==
 
 
 Quick Answer:
-				==        is for reference/address comparison.
+				==        is for reference/memory address comparison.
 
 				
 				equals()  is for content comparison depending on how it is defined.

@@ -4,29 +4,32 @@ public class Vehicle implements Drivable {
 
 	int numOfWheels = 2;
 	double theSpeed = 0;
-
 	int carPower = 0;
-
-	public int getWheels() {
-		return this.getWheels();
+	
+	
+	public int drive() {
+		return 0;
 	}
-
-	public void setWheels(int numWheels) {
-		this.numOfWheels = numWheels;
+	
+	public void turn() {
+		
+		// make a sharp left turn
+		
 	}
-
-	public double getSpeed() {
-		return this.theSpeed;
+	
+	
+	public void stop() {
+		
+		// make the car stop.
+		
 	}
+	
 
-	public void setSpeed(double speed) {
-
+	public void speedUp(int amount) {
+		
 	}
+	
+	
 
-	public Vehicle(int wheels, double speed) {
-
-		this.numOfWheels = wheels;
-		this.theSpeed = speed;
-	}
 
 }

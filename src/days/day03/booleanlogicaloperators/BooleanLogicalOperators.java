@@ -22,10 +22,8 @@ public class BooleanLogicalOperators {
 			// this else block will never run...
 		}
 
-		if ((a==100) | (b==3)) {
-		
-			// line is run....
-			
+		if ((a==100) | (b==3)) {		
+			// line is run....			
 		}
 		
 		if ((a == 100) || (b == 3)) {
@@ -38,7 +36,7 @@ public class BooleanLogicalOperators {
 		if ((a == 100) ^ (b == 3)) {
 			System.out.println("Returns true, if they are different.");
 		} else {
-			System.out.println("false if values are different.");
+			System.out.println("false if values are same.");
 		}
 
 	}
