@@ -4,7 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		MyClass m = new MyClass();
-		m.checkAge(15);
+		
+		m.anotherMethod();
+//		m.checkAge(15);
 
 	}
 }

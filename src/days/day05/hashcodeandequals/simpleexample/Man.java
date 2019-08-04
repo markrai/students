@@ -17,6 +17,7 @@ public class Man {
 		man2.geneticCode = 1111222233;
 
 		System.out.println(man1 == man2);
-		System.out.println(man1.equals(man2)); 
+		System.out.println(man1.equals(man2));
 	}
+
 }

@@ -16,6 +16,9 @@ public class SampleClass {
 	public void methodWithOneParameter(int steps) {  // This takes 1 parameter
 
 		System.out.println("I am taking " + steps + " steps towards my goal...");
+		System.out.println("1");
+		System.out.println("2");
+		System.out.println("3");
 
 	}
 

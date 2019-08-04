@@ -1,6 +1,8 @@
 package days.day05.hashcodeandequals.overriddenexample;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class HashcodeEquals {
 
@@ -9,14 +11,15 @@ public class HashcodeEquals {
 		Student alex1 = new Student(1, "Alex");
 		Student alex2 = new Student(1, "Alex");
 		
-		HashSet<Student> students = new HashSet<Student>();
+		List<Student> studentsArrayList = new ArrayList<>();
+		HashSet<Student> studentsHashSet = new HashSet<Student>();
 
-		students.add(alex1);
-		students.add(alex2);
+		studentsHashSet.add(alex1);
+		studentsHashSet.add(alex2);
 		
 
-		System.out.println("HashSet size = " + students.size());
-		System.out.println("HashSet contains Alex = " + students.contains(new Student(1, "Alex")));
+		System.out.println("HashSet size = " + studentsHashSet.size());
+		System.out.println("HashSet contains Alex = " + studentsHashSet.contains(new Student(1, "Alex")));
 	}
 	
 	

@@ -12,7 +12,8 @@ public class Runner {
 	public static void main(String[] args) {
 				
 		SampleClass sampleClass = new SampleClass(); // instantiation
+
+		sampleClass.methodWithOneParameter(20);
 		
-		System.out.println("Test");
 	}
 }

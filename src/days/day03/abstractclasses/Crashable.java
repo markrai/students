@@ -5,13 +5,19 @@ package days.day03.abstractclasses;
 public abstract class Crashable {
 
 	boolean carDrivable = true;
-
-	public void crashTheCar() {
-		this.carDrivable = false;
+	
+	Integer myNumber = 5;
+	
+	public void someMethod() {
+		
+		System.out.println("BLAH");
 	}
+	
+	public static void something() {
+		
+	}
+	
+	
 
-	public abstract void setCarStrength(int carPower); 
-
-	public abstract int getCarStrength();
 
 }
