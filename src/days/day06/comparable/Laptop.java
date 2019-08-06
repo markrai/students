@@ -50,6 +50,5 @@ public class Laptop implements Comparable<Laptop> {
 	public String toString() {
 		return "Laptop [brand=" + brand + ", ram=" + ram + ", price=" + price + "]";
 	}
-	
-	
+
 }
