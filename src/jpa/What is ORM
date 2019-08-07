@@ -1,0 +1,19 @@
+What is ORM (Object - Relational Mapping)
+
+In a Relational Database, data is represented using tables with columns, and a unique
+key identifying each row. The rows represent instances of that type of data.
+Rows in a table can be linked to rows on another table by adding a column for the unique key
+on the other table. This column is called a foreign key.
+
+Object Oriented Programming Languages store data in objects and classes.
+
+
+JPA is an abstraction on top of JDBC. It resides in the javax.persistence package.
+JPA is simply a set of empty methods and "guidelines" and describes the Java persistence methodologies.
+
+As of 2019, the instance providers for JPA are:
+
+EclipseLink (Oracle)
+Hibernate (JBoss & RedHat)
+OpenJPA (IBM)
+DataNucleus (JPOX)

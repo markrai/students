@@ -1,0 +1,19 @@
+SQL/JDBC Terminology:
+
+Statement: the representation SQL to be executed against the DB.
+
+ResultSet: the response from the database in a logical tabular form. It's a multi-dimensional array
+           It also includes some metadata assoc. with the query.
+
+
+PreparedStatement: an extension of statement that is used for pre-compiled statements (with inputs)
+
+CallableStatement: Any extension of PreparedStatement That reference is stored procedures within the database (with inputs & outputs)\
+
+
+Transaction: A series of statements that must be executed completely or not at all before any other process can read them.
+
+Rollback: A transaction is reversed, such that it appears to all current and future processes
+as never having occurred. 
+ 
+

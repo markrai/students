@@ -1,3 +1,28 @@
-What is DAO? (Data Access Object)
+o WHAT IS A DAO? (Data Access Object)
 
-See this: https://www.baeldung.com/java-dao-pattern
+ o Provides abstraction between JDBC and the rest of the code.
+ o It should encapsulate the logic for retrieving, saving and updating data in your
+   data storage. 
+ o Often leverages a common interface.
+ o Concrete implementation reacts on single data domain.
+ o Encapsulation of complex joins and aggregations.
+
+o DAO Factory
+	o Often used with DAOs
+	o Provides ability to leverage common paths for basic CRUD operations.
+	o Loses value when you have a lot of custom methods.
+	
+	 
+ o See this: https://www.baeldung.com/java-dao-pattern
+
+o WHAT IS A DTO? (Data Transfer Object)
+
+  o It is used to transfer the data between classes and modules of your application.
+  o Should fully encapsulate objects and/or contain sub-objects.
+  o A DTO should be the input or output of a single DAO.
+
+  see: https://martinfowler.com/eaaCatalog/dataTransferObject.html  
+
+o Together, the DTO/DAO acts as the MODEL in your MVC application.
+
+

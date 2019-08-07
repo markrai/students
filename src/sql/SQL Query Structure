@@ -1,0 +1,15 @@
+SQL Query Structure:
+
+SELECT < * | column_name | aggregate functions >
+
+FROM <table_name>
+
+WHERE <match conditions>
+
+AND <join conditions>
+
+GROUP BY <column_name>
+
+HAVING <condition for group by>
+
+ORDER BY <column names> <asc|desc>
