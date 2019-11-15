@@ -3,7 +3,7 @@ package days.day03.loops.enhancedforloop;
 public class User {
 	
 	private int id;
-	private String name;
+	String name;
 	private boolean approved;
 	
 	

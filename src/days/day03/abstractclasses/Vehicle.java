@@ -32,18 +32,6 @@ public class Vehicle extends Crashable implements Drivable {
 	}
 
 	@Override
-	public void setCarStrength(int carPower) {
-		// TODO Auto-generated method stub
-	
-	}
-
-	@Override
-	public int getCarStrength() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
 	public int drive() {
 		// TODO Auto-generated method stub
 		return 0;
@@ -52,34 +40,19 @@ public class Vehicle extends Crashable implements Drivable {
 	@Override
 	public void turn() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void stop() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void speedUp(int amount) {
 		// TODO Auto-generated method stub
-		
-	}
 
-	@Override
-	public void something() {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	
-	public void somethingsomething() {
-		
-		Crashable c = new Crashable();
-		
-		
-		
 	}
 
 }
