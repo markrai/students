@@ -9,6 +9,7 @@ public class Main {
 		Object o = new Object();
 				
 		Surgeon s = new Surgeon();
+		
 		s.checkPatient();
 	}
 }

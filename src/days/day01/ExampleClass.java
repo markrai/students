@@ -7,24 +7,23 @@ public class ExampleClass {
 	private int myNumber; // instance variable
 	static private int counter; // class variable
 
-	
 	public int walk(int numberOfSteps) { // method which takes one parameter and returns an 'int'
 		System.out.println("I just walked" + numberOfSteps + "steps!");
 		return numberOfSteps;
 	}
-	
-	
-	public String talk(int numberOfWords) {  // the return type for this method is a String
-		String speech = null;
-		System.out.println("I am speaking "+ numberOfWords + " words");		
+
+//	walk(10);    <--- when we call a method, we give it an argument of "10" 
+
+	public String talk(int numberOfWords) { // the return type for this method is a String
+		String speech = "I am speaking " + numberOfWords + " words";
+		System.out.println(speech);
 		return speech;
 	}
-	
-	
-	public void eat() {  // This method has a void return type, so it returns nothing. 
-		
-        int amountOfFood = 0;     // This is a local variable because it's inside a method!
-         // Local variables cannot be accessed outside of the methods containing them.
+
+	public void eat() { // This method has a void return type, so it returns nothing.
+
+		int amountOfFood = 0; // This is a local variable because it's inside a method!
+		// Local variables cannot be accessed outside of the methods containing them.
 	}
 
 }
