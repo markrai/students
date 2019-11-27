@@ -1,6 +1,6 @@
 package days.day02.finalkeyword;
 
-public final class FinalKeyword { // a final class cannot be sub-classed! (i.e. extended)
+public final class FinalKeyword  { // a final class cannot be sub-classed! (i.e. extended)
 
 	final int myFinalVariable = 5; // this variable will be a constant.
 
@@ -15,3 +15,5 @@ public final class FinalKeyword { // a final class cannot be sub-classed! (i.e. 
 	}
 
 }
+
+

@@ -17,15 +17,15 @@ public class BooleanLogicalOperators {
 		}
 
 		if ((a == 100) && (b == 3)) {
-			System.out.println("The first one was false - Don't bother checking 2nd condition...");
+			// this block will never run because a != 100 and it wont bother checking 2nd condition
 		} else {
-			// this else block will never run...
+			System.out.println("The first one was false - Don't bother checking 2nd condition...");
 		}
 
-		if ((a==100) | (b==3)) {		
-			// line is run....			
+		if ((a == 100) | (b == 3)) {
+			// line is run....
 		}
-		
+
 		if ((a == 100) || (b == 3)) {
 			System.out.println("If the first one is true, don't bother checking second");
 		} else {
@@ -42,7 +42,7 @@ public class BooleanLogicalOperators {
 	}
 
 	// Ternary Operator
-	String result1 = (x == 0 ? "x is zero" : "x is not zero");
+	String result1 = (x == 0 ? "x is zero" : "x is not zero");	
 
 	int result2 = (x == 0 ? x + 1 : x - 1);
 

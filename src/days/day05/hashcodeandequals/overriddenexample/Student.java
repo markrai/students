@@ -1,7 +1,7 @@
 package days.day05.hashcodeandequals.overriddenexample;
 
 public class Student {
-	
+
 	int id2;
 	private int id;
 	private String name;
@@ -27,7 +27,6 @@ public class Student {
 		this.name = name;
 	}
 
-	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -35,7 +34,6 @@ public class Student {
 		result = prime * result + id;
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {

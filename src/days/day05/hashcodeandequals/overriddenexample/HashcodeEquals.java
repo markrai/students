@@ -11,7 +11,7 @@ public class HashcodeEquals {
 		Student alex1 = new Student(1, "Alex");
 		Student alex2 = new Student(1, "Alex");
 		
-		List<Student> studentsArrayList = new ArrayList<>();
+//		List<Student> studentsArrayList = new ArrayList<>();
 		HashSet<Student> studentsHashSet = new HashSet<Student>();
 
 		studentsHashSet.add(alex1);
