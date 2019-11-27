@@ -6,6 +6,7 @@ BUT!
 
 sort() only accepts those objects which are Comparable.
 
+
 What does that mean?
 
 It means that the class of these objects must implement the Comparable interface:
