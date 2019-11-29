@@ -23,6 +23,19 @@ public class User {
 		userList.add(u1);
 		userList.add(u2);
 
+		System.out.println(u1.getUserList());
+		System.out.println(u2.getUserList());
+
+		System.out.println("Which user user?");
+
+	}
+
+	public List<User> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(List<User> userList) {
+		this.userList = userList;
 	}
 
 }

@@ -6,13 +6,13 @@ import java.util.ArrayList;
  * 
  * Java's Wrapper classes:
  * 
- * Character
- * Byte
- * Short
- * Integer
- * Float
- * Double
- * Boolean
+ * Character - char
+ * Byte      - byte
+ * Short     - short
+ * Integer   - int
+ * Float     - float
+ * Double    - double
+ * Boolean   - boolean
  * 
  * Question: Why isn't String in this list?
  */
@@ -25,15 +25,15 @@ public class WrapperClasses {
 		int i = 5;
 		int j = 6;
 
-		Integer i2 = new Integer(i); // Boxing
+		Integer integer1 = new Integer(i); // Boxing
 
-		Integer i3 = i; // Auto-boxing
+		Integer integer2 = i; // Auto-boxing
 
-		j = i3.intValue(); // Unboxing
+		j = integer1.intValue(); // Unboxing
 
-		i = i2; // Auto unboxing
+		i = integer2; // Auto unboxing
 
-		// When is auoboxing used?
+		// When is autoboxing used?
 
 		ArrayList<Integer> values = new ArrayList<>();
 		values.add(5);

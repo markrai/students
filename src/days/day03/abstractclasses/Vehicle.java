@@ -55,4 +55,10 @@ public class Vehicle extends Crashable implements Drivable {
 
 	}
 
+	@Override
+	public void myAbstractMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

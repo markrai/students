@@ -5,19 +5,18 @@ package days.day03.abstractclasses;
 public abstract class Crashable {
 
 	boolean carDrivable = true;
-	
+
 	Integer myNumber = 5;
-	
+
 	public void someMethod() {
-		
+
 		System.out.println("BLAH");
 	}
-	
-	public static void something() {
-		
-	}
-	
-	
 
+	public static void something() {
+
+	}
+
+	public abstract void myAbstractMethod();
 
 }

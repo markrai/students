@@ -6,9 +6,6 @@ public class Array {
 	
 	String[] myArrayOfStudnets = new String[10];
 	
-
-	
-	
 	void addToArray() {
 
 		myArray[0] = 15;
@@ -24,7 +21,7 @@ public class Array {
 
 	void returnValues() {
 
-		for (int i = 0; i < myArray.length; i++) {
+		for (int i = 0; i < myArray.length;i++) {
 
 			System.out.println(myArray[i]);
 		}

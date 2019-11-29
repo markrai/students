@@ -1,27 +1,21 @@
 package days.day02.statickeyword;
 
 public class RunThis {
-	
-	
-	public static void main(String[] args) {     // IS STATIC
-		
-		System.out.println("Hey! I am inside the main method!");			
-		StaticKeyword sk = new StaticKeyword();		
-		sk.countNumberOfInstances();
-		
-		StaticKeyword sk2 = new StaticKeyword();
-		sk.countNumberOfInstances();
-		
-		System.out.println(sk.getCounter());
-		
+
+	public static void main(String[] args) {
+
+		System.out.println("Hey! I am inside the main method!");
+		StaticKeywordOmletteExample skoe = new StaticKeywordOmletteExample();
+		StaticKeywordOmletteExample skoe2 = new StaticKeywordOmletteExample();
+
 	}
-	
-	
-	public void myMethod() {   // NOT STATIC
-		
-		StaticKeyword sk2 = new StaticKeyword();
-		
-		
+
+	public void myMethod() { // NON STATIC METHOD
+
+		StaticKeywordOmletteExample sk2 = new StaticKeywordOmletteExample();
+
+		System.out.println(StaticKeywordOmletteExample.getCounter());
+
 	}
 
 }

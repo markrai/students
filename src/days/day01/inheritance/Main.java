@@ -6,6 +6,10 @@ public class Main {
 
 		Doctor doctor = new Doctor();
 		
+		Object o = new Object();
+				
+		Surgeon s = new Surgeon();
 		
+		s.checkPatient();
 	}
 }
