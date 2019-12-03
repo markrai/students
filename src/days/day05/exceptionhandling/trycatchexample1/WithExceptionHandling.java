@@ -9,7 +9,6 @@ public class WithExceptionHandling {
 		try {
 			int fraction = n / d; // risky statement
 			System.out.println("This line will not be Executed");
-
 		}
 
 		catch (ArithmeticException e) {
