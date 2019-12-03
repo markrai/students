@@ -17,4 +17,19 @@ Diamond Inheritance Problem:
  If B and C inherit from A, and both B and C override a method which they inherited from class A....
  and then class D extends both class B and C.... which version of the method will class D have?
 
+WHY DO WE USE INTERFACES AND WHAT IS THEIR RELATIONSHIP WITH CLASSES?
 
+	Classes implement inheritance, to allow for specialization. 
+	This is described in all the animal/mammal/dog examples you see around.
+
+	Interfaces describe aspects of behavior to allow composition.
+
+	The second can be described like this: 
+	You might have Readable objects on which you can call a read() method.  
+	There could also be Writable objects with a write() method - and, of course, there could be objects which have both.
+	Interfaces allow tight specifications of this behaviour to allow composition.
+	Some other languages solved the problem in a different way. 
+	Some, like C++ have multiple inheritance, a very complicated issue to solve.
+ 
+	Some, like Go, have interfaces, but not class inheritance, hinting that composition and specification of contracts is 
+	more valued than inheritance itself in a simple functional language closer to C than to Java.

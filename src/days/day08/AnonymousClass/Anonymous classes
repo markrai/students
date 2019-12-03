@@ -1,0 +1,30 @@
+Anonymous class - a way to create a new object without having to declare a class first.
+
+Why do we do this?
+
+1. The object you’re creating has limited use/scope.
+2. The functionality the object provides is specific to the context in which it is being created.
+
+Examples:
+
+Comparator<String> byLength = new Comparator<>() {
+    @Override
+    public int compare(String s1, String s2) {
+         return Integer.compare(s1.length(), s2.length());
+    }
+};
+
+
+Comparator<String> byHashCode = new Comparator<>() {
+    @Override
+    public int compare(String s1, String s2) {
+         return Integer.compare(s1.hashCode(), s2.hashCode());
+    }
+};
+
+
+Using Integer.compare() in both these examples is also just a convenience. 
+Without it, you’d have to do something like this:
+
+return (s1.length() < s2.length()) ? -1 : (s1.length() > s2.length()) ? 1 : 0;
+

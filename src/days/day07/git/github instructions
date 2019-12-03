@@ -1,0 +1,17 @@
+Directions for how to create a project on GitHub, and clone that project locally
+	1. Go to GitHub.com and CREATE new project.
+	2. Go to GitKraken (or another Git client and CLONE that project.
+	3. Open that project in Eclipse by clicking on File -> Open Projects From File System.
+	4. Right click on project, click on properties, type in "Project Facets" and select the "Convert to faceted form" link. Tick mark "Java" and click on Apply and Close button.
+	5. Make changes to your Eclipse project (i.e. start coding!)
+	6. In GitKraken, select your changes marked WIP and click on "Stage files"
+	7. Type a descriptive message for your commit Summary/Description (optional) and click on the Commit changes to # files button.
+	8. Click the push button.
+
+
+Directions on how to first create a Java project in Eclipse and then create the repository on GitHub later
+	1. Create project in Eclipse
+  	2. In GitKraken, go to File -> Initialize Repo -> GitHub.com
+	3. Input the settings for your project and where to clone it.
+	4. Select a .gitignore template of "Java"
+	5. Click on "Create Repository and Clone" button.

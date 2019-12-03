@@ -1,0 +1,25 @@
+Big-O notation is a way to represent the efficiency of an algorithm. It's a way of expressing 
+how long, in a worst case scenario, it could take an algorithm to run.
+
+What type of algorithms are we talking about? sorting and searching algorithms.
+
+Big-O is essentially a mathematical function that plots the time for the algorithm to 
+complete, against the number of elements on which the algorithm is operating.
+
+y-axis: time
+x-axis: # of elements
+
+When a function grows linearly, (i.e. proportionate time to the number of elements involved.)
+it is said to be O(n) where n equals the number of elements.
+
+When a function takes constant time, then it is said to be O(1). 
+
+Other functions may take the following times:
+
+O(log n)
+O(n log n)
+O(n^2)
+
+Further Reading:
+https://stackoverflow.com/questions/1592649/examples-of-algorithms-which-has-o1-on-log-n-and-olog-n-complexities
+https://blog.bitsrc.io/algorithms-efficiency-big-o-in-simple-english-adbaedbcdfcf
