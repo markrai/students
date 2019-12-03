@@ -13,7 +13,7 @@
 				<excludes>
 					<exclude>**/*.java</exclude>
 				</excludes>
-			</resource>
+			</resource>	
 		</resources>
 		<plugins>
 			<plugin>
