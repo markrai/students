@@ -15,9 +15,15 @@ public class MyClass {
 		checkAge(15);
 	}
 
-	static void anotherMethod() {
+	static void anotherMethod() throws ArithmeticException {
 
-		someMethod();
+		try {
+			someMethod();
+
+		} catch (ArithmeticException e) {
+
+			System.out.println("Exception handled");
+		}
 	}
 
 	public static void main(String[] args) {

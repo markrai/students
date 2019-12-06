@@ -6,7 +6,7 @@ package days.day08.AnonymousClass;
 class X {
 
 	public void show() {
-		System.out.println("Inside the Z class's show()");
+		System.out.println("Inside the X class's show()");
 	}
 
 }
@@ -22,6 +22,7 @@ class X {
  */
 
 public class UsecaseWithAnonymousClass {
+	
 	public static void main(String[] args) {
 
 		X obj = new X() {
