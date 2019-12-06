@@ -11,6 +11,9 @@ public class MethodReferenceExample {
 		
 		//like this, instead...
 		Consumer<String> d = System.out::println;
+		
+		
+		
 
 	}
 
